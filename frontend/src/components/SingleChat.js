@@ -36,7 +36,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
     notification,
   } = ChatState();
 
-  const ENDPOINT = "http://localhost:5000";
+  const ENDPOINT = "https://ribbetnew.onrender.com";
   let selectedChatCompare;
 
   useEffect(() => {
